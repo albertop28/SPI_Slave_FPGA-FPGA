@@ -8,12 +8,12 @@ net "start_detected_out" loc = "A7";
 
 # Data comm FPGA
 net "received_data(0)" loc = "N14";
-net "received_data(1)" loc = "N7";
-net "received_data(2)" loc = "N5";
+net "received_data(1)" loc = "M5";
+net "received_data(2)" loc = "M3";
 net "received_data(3)" loc = "P13";
 net "received_data(4)" loc = "N8";
 net "received_data(5)" loc = "R5";
-net "received_data(6)" loc = "R4";
+net "received_data(6)" loc = "P1";
 net "received_data(7)" loc = "N1";
 net "received_data(8)" loc = "C2";
 net "received_data(9)" loc = "D1";
