@@ -55,10 +55,11 @@ process(clock_commFpga) begin
             else
                 start_detected <= '1';  -- Código de inicio recibido correctamente
                 bit_index <= 0;
+					 received_data(bit_index) <= serial_data;
             end if;
         else
-				if bit_index < 16 then -- Recibir los 20 bits de datos después de detectar el código de inicio
-                received_data(bit_index) <= serial_data;
+				if bit_index < 15 then -- Recibir los 20 bits de datos después de detectar el código de inicio
+                received_data(bit_index + 1) <= serial_data;
                 bit_index <= bit_index + 1;	
             else
                -- Finalización exitosa
