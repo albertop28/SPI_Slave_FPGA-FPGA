@@ -1,0 +1,28 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Tue Oct 15 23:41:24 2024
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "received_data<7>" LOCATE = SITE "N1" LEVEL 1;
+COMP "received_data<8>" LOCATE = SITE "C2" LEVEL 1;
+COMP "received_data<9>" LOCATE = SITE "D1" LEVEL 1;
+COMP "received_data<10>" LOCATE = SITE "F11" LEVEL 1;
+COMP "clk" LOCATE = SITE "E7" LEVEL 1;
+COMP "received_data<11>" LOCATE = SITE "D11" LEVEL 1;
+COMP "received_data<12>" LOCATE = SITE "D8" LEVEL 1;
+COMP "received_data<13>" LOCATE = SITE "D7" LEVEL 1;
+COMP "received_data<14>" LOCATE = SITE "E6" LEVEL 1;
+COMP "received_data<15>" LOCATE = SITE "D4" LEVEL 1;
+COMP "serial_data_in" LOCATE = SITE "E14" LEVEL 1;
+PIN serial_data_in_pin<0> = BEL "serial_data_in" PINNAME PAD;
+PIN "serial_data_in_pin<0>" CLOCK_DEDICATED_ROUTE = FALSE;
+COMP "start_detected_out" LOCATE = SITE "A7" LEVEL 1;
+COMP "received_data<0>" LOCATE = SITE "N14" LEVEL 1;
+COMP "received_data<1>" LOCATE = SITE "N7" LEVEL 1;
+COMP "received_data<2>" LOCATE = SITE "N5" LEVEL 1;
+COMP "received_data<3>" LOCATE = SITE "P13" LEVEL 1;
+COMP "received_data<4>" LOCATE = SITE "N8" LEVEL 1;
+COMP "received_data<5>" LOCATE = SITE "R5" LEVEL 1;
+COMP "received_data<6>" LOCATE = SITE "R4" LEVEL 1;
+SCHEMATIC END;
+

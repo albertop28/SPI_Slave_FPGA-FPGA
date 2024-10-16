@@ -1,0 +1,302 @@
+xst -intstyle ise -ifn "/home/ise/ISE_Virtual_Machine_interconnection/slave_spi_fpga/main_slave.xst" -ofn "/home/ise/ISE_Virtual_Machine_interconnection/slave_spi_fpga/main_slave.syr" 
+xst -intstyle ise -ifn "/home/ise/ISE_Virtual_Machine_interconnection/slave_spi_fpga/main_slave.xst" -ofn "/home/ise/ISE_Virtual_Machine_interconnection/slave_spi_fpga/main_slave.syr" 
+xst -intstyle ise -ifn "/home/ise/ISE_Virtual_Machine_interconnection/slave_spi_fpga/main_slave.xst" -ofn "/home/ise/ISE_Virtual_Machine_interconnection/slave_spi_fpga/main_slave.syr" 
+xst -intstyle ise -ifn "/home/ise/ISE_Virtual_Machine_interconnection/slave_spi_fpga/main_slave.xst" -ofn "/home/ise/ISE_Virtual_Machine_interconnection/slave_spi_fpga/main_slave.syr" 
+xst -intstyle ise -ifn "/home/ise/ISE_Virtual_Machine_interconnection/slave_spi_fpga/main_slave.xst" -ofn "/home/ise/ISE_Virtual_Machine_interconnection/slave_spi_fpga/main_slave.syr" 
+xst -intstyle ise -ifn "/home/ise/ISE_Virtual_Machine_interconnection/slave_spi_fpga/main_slave.xst" -ofn "/home/ise/ISE_Virtual_Machine_interconnection/slave_spi_fpga/main_slave.syr" 
+xst -intstyle ise -ifn "/home/ise/ISE_Virtual_Machine_interconnection/slave_spi_fpga/main_slave.xst" -ofn "/home/ise/ISE_Virtual_Machine_interconnection/slave_spi_fpga/main_slave.syr" 
+xst -intstyle ise -ifn "/home/ise/ISE_Virtual_Machine_interconnection/slave_spi_fpga/main_slave.xst" -ofn "/home/ise/ISE_Virtual_Machine_interconnection/slave_spi_fpga/main_slave.syr" 
+xst -intstyle ise -ifn "/home/ise/ISE_Virtual_Machine_interconnection/slave_spi_fpga/main_slave.xst" -ofn "/home/ise/ISE_Virtual_Machine_interconnection/slave_spi_fpga/main_slave.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc7a100t-csg324-3 main_slave.ngc main_slave.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o main_slave_map.ncd main_slave.ngd main_slave.pcf 
+xst -intstyle ise -ifn "/home/ise/ISE_Virtual_Machine_interconnection/slave_spi_fpga/main_slave.xst" -ofn "/home/ise/ISE_Virtual_Machine_interconnection/slave_spi_fpga/main_slave.syr" 
+xst -intstyle ise -ifn "/home/ise/ISE_Virtual_Machine_interconnection/slave_spi_fpga/main_slave.xst" -ofn "/home/ise/ISE_Virtual_Machine_interconnection/slave_spi_fpga/main_slave.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc7a100t-csg324-3 main_slave.ngc main_slave.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o main_slave_map.ncd main_slave.ngd main_slave.pcf 
+xst -intstyle ise -ifn "/home/ise/ISE_Virtual_Machine_interconnection/slave_spi_fpga/main_slave.xst" -ofn "/home/ise/ISE_Virtual_Machine_interconnection/slave_spi_fpga/main_slave.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx9-csg225-2 main_slave.ngc main_slave.ngd  
+map -intstyle ise -p xc6slx9-csg225-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o main_slave_map.ncd main_slave.ngd main_slave.pcf 
+par -w -intstyle ise -ol high -mt off main_slave_map.ncd main_slave.ncd main_slave.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml main_slave.twx main_slave.ncd -o main_slave.twr main_slave.pcf -ucf pines.ucf 
+bitgen -intstyle ise -f main_slave.ut main_slave.ncd 
+xst -intstyle ise -ifn "/home/ise/ISE_Virtual_Machine_interconnection/slave_spi_fpga/main_slave.xst" -ofn "/home/ise/ISE_Virtual_Machine_interconnection/slave_spi_fpga/main_slave.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx9-csg225-2 main_slave.ngc main_slave.ngd  
+map -intstyle ise -p xc6slx9-csg225-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o main_slave_map.ncd main_slave.ngd main_slave.pcf 
+par -w -intstyle ise -ol high -mt off main_slave_map.ncd main_slave.ncd main_slave.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml main_slave.twx main_slave.ncd -o main_slave.twr main_slave.pcf -ucf pines.ucf 
+bitgen -intstyle ise -f main_slave.ut main_slave.ncd 
+xst -intstyle ise -ifn "/home/ise/ISE_Virtual_Machine_interconnection/slave_spi_fpga/main_slave.xst" -ofn "/home/ise/ISE_Virtual_Machine_interconnection/slave_spi_fpga/main_slave.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx9-csg225-2 main_slave.ngc main_slave.ngd  
+map -intstyle ise -p xc6slx9-csg225-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o main_slave_map.ncd main_slave.ngd main_slave.pcf 
+par -w -intstyle ise -ol high -mt off main_slave_map.ncd main_slave.ncd main_slave.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml main_slave.twx main_slave.ncd -o main_slave.twr main_slave.pcf -ucf pines.ucf 
+bitgen -intstyle ise -f main_slave.ut main_slave.ncd 
+xst -intstyle ise -ifn "/home/ise/ISE_Virtual_Machine_interconnection/slave_spi_fpga/main_slave.xst" -ofn "/home/ise/ISE_Virtual_Machine_interconnection/slave_spi_fpga/main_slave.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx9-csg225-2 main_slave.ngc main_slave.ngd  
+map -intstyle ise -p xc6slx9-csg225-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o main_slave_map.ncd main_slave.ngd main_slave.pcf 
+par -w -intstyle ise -ol high -mt off main_slave_map.ncd main_slave.ncd main_slave.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml main_slave.twx main_slave.ncd -o main_slave.twr main_slave.pcf -ucf pines.ucf 
+bitgen -intstyle ise -f main_slave.ut main_slave.ncd 
+xst -intstyle ise -ifn "/home/ise/ISE_Virtual_Machine_interconnection/slave_spi_fpga/main_slave.xst" -ofn "/home/ise/ISE_Virtual_Machine_interconnection/slave_spi_fpga/main_slave.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx9-csg225-2 main_slave.ngc main_slave.ngd  
+map -intstyle ise -p xc6slx9-csg225-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o main_slave_map.ncd main_slave.ngd main_slave.pcf 
+par -w -intstyle ise -ol high -mt off main_slave_map.ncd main_slave.ncd main_slave.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml main_slave.twx main_slave.ncd -o main_slave.twr main_slave.pcf -ucf pines.ucf 
+bitgen -intstyle ise -f main_slave.ut main_slave.ncd 
+xst -intstyle ise -ifn "/home/ise/ISE_Virtual_Machine_interconnection/slave_spi_fpga/main_slave.xst" -ofn "/home/ise/ISE_Virtual_Machine_interconnection/slave_spi_fpga/main_slave.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx9-csg225-2 main_slave.ngc main_slave.ngd  
+map -intstyle ise -p xc6slx9-csg225-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o main_slave_map.ncd main_slave.ngd main_slave.pcf 
+par -w -intstyle ise -ol high -mt off main_slave_map.ncd main_slave.ncd main_slave.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml main_slave.twx main_slave.ncd -o main_slave.twr main_slave.pcf -ucf pines.ucf 
+bitgen -intstyle ise -f main_slave.ut main_slave.ncd 
+xst -intstyle ise -ifn "/home/ise/ISE_Virtual_Machine_interconnection/slave_spi_fpga/main_slave.xst" -ofn "/home/ise/ISE_Virtual_Machine_interconnection/slave_spi_fpga/main_slave.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx9-csg225-2 main_slave.ngc main_slave.ngd  
+map -intstyle ise -p xc6slx9-csg225-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o main_slave_map.ncd main_slave.ngd main_slave.pcf 
+par -w -intstyle ise -ol high -mt off main_slave_map.ncd main_slave.ncd main_slave.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml main_slave.twx main_slave.ncd -o main_slave.twr main_slave.pcf -ucf pines.ucf 
+bitgen -intstyle ise -f main_slave.ut main_slave.ncd 
+xst -intstyle ise -ifn "/home/ise/ISE_Virtual_Machine_interconnection/slave_spi_fpga/main_slave.xst" -ofn "/home/ise/ISE_Virtual_Machine_interconnection/slave_spi_fpga/main_slave.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx9-csg225-2 main_slave.ngc main_slave.ngd  
+map -intstyle ise -p xc6slx9-csg225-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o main_slave_map.ncd main_slave.ngd main_slave.pcf 
+par -w -intstyle ise -ol high -mt off main_slave_map.ncd main_slave.ncd main_slave.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml main_slave.twx main_slave.ncd -o main_slave.twr main_slave.pcf -ucf pines.ucf 
+bitgen -intstyle ise -f main_slave.ut main_slave.ncd 
+xst -intstyle ise -ifn "/home/ise/ISE_Virtual_Machine_interconnection/slave_spi_fpga/main_slave.xst" -ofn "/home/ise/ISE_Virtual_Machine_interconnection/slave_spi_fpga/main_slave.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx9-csg225-2 main_slave.ngc main_slave.ngd  
+map -intstyle ise -p xc6slx9-csg225-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o main_slave_map.ncd main_slave.ngd main_slave.pcf 
+par -w -intstyle ise -ol high -mt off main_slave_map.ncd main_slave.ncd main_slave.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml main_slave.twx main_slave.ncd -o main_slave.twr main_slave.pcf -ucf pines.ucf 
+bitgen -intstyle ise -f main_slave.ut main_slave.ncd 
+xst -intstyle ise -ifn "/home/ise/ISE_Virtual_Machine_interconnection/slave_spi_fpga/main_slave.xst" -ofn "/home/ise/ISE_Virtual_Machine_interconnection/slave_spi_fpga/main_slave.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx9-csg225-2 main_slave.ngc main_slave.ngd  
+map -intstyle ise -p xc6slx9-csg225-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o main_slave_map.ncd main_slave.ngd main_slave.pcf 
+par -w -intstyle ise -ol high -mt off main_slave_map.ncd main_slave.ncd main_slave.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml main_slave.twx main_slave.ncd -o main_slave.twr main_slave.pcf -ucf pines.ucf 
+bitgen -intstyle ise -f main_slave.ut main_slave.ncd 
+xst -intstyle ise -ifn "/home/ise/ISE_Virtual_Machine_interconnection/slave_spi_fpga/main_slave.xst" -ofn "/home/ise/ISE_Virtual_Machine_interconnection/slave_spi_fpga/main_slave.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx9-csg225-2 main_slave.ngc main_slave.ngd  
+map -intstyle ise -p xc6slx9-csg225-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o main_slave_map.ncd main_slave.ngd main_slave.pcf 
+par -w -intstyle ise -ol high -mt off main_slave_map.ncd main_slave.ncd main_slave.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml main_slave.twx main_slave.ncd -o main_slave.twr main_slave.pcf -ucf pines.ucf 
+bitgen -intstyle ise -f main_slave.ut main_slave.ncd 
+xst -intstyle ise -ifn "/home/ise/ISE_Virtual_Machine_interconnection/slave_spi_fpga/main_slave.xst" -ofn "/home/ise/ISE_Virtual_Machine_interconnection/slave_spi_fpga/main_slave.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx9-csg225-2 main_slave.ngc main_slave.ngd  
+map -intstyle ise -p xc6slx9-csg225-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o main_slave_map.ncd main_slave.ngd main_slave.pcf 
+par -w -intstyle ise -ol high -mt off main_slave_map.ncd main_slave.ncd main_slave.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml main_slave.twx main_slave.ncd -o main_slave.twr main_slave.pcf -ucf pines.ucf 
+bitgen -intstyle ise -f main_slave.ut main_slave.ncd 
+xst -intstyle ise -ifn "/home/ise/ISE_Virtual_Machine_interconnection/slave_spi_fpga/main_slave.xst" -ofn "/home/ise/ISE_Virtual_Machine_interconnection/slave_spi_fpga/main_slave.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx9-csg225-2 main_slave.ngc main_slave.ngd  
+map -intstyle ise -p xc6slx9-csg225-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o main_slave_map.ncd main_slave.ngd main_slave.pcf 
+par -w -intstyle ise -ol high -mt off main_slave_map.ncd main_slave.ncd main_slave.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml main_slave.twx main_slave.ncd -o main_slave.twr main_slave.pcf -ucf pines.ucf 
+bitgen -intstyle ise -f main_slave.ut main_slave.ncd 
+xst -intstyle ise -ifn "/home/ise/ISE_Virtual_Machine_interconnection/slave_spi_fpga/main_slave.xst" -ofn "/home/ise/ISE_Virtual_Machine_interconnection/slave_spi_fpga/main_slave.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx9-csg225-2 main_slave.ngc main_slave.ngd  
+map -intstyle ise -p xc6slx9-csg225-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o main_slave_map.ncd main_slave.ngd main_slave.pcf 
+par -w -intstyle ise -ol high -mt off main_slave_map.ncd main_slave.ncd main_slave.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml main_slave.twx main_slave.ncd -o main_slave.twr main_slave.pcf -ucf pines.ucf 
+bitgen -intstyle ise -f main_slave.ut main_slave.ncd 
+xst -intstyle ise -ifn "/home/ise/ISE_Virtual_Machine_interconnection/slave_spi_fpga/main_slave.xst" -ofn "/home/ise/ISE_Virtual_Machine_interconnection/slave_spi_fpga/main_slave.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx9-csg225-2 main_slave.ngc main_slave.ngd  
+map -intstyle ise -p xc6slx9-csg225-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o main_slave_map.ncd main_slave.ngd main_slave.pcf 
+par -w -intstyle ise -ol high -mt off main_slave_map.ncd main_slave.ncd main_slave.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml main_slave.twx main_slave.ncd -o main_slave.twr main_slave.pcf -ucf pines.ucf 
+bitgen -intstyle ise -f main_slave.ut main_slave.ncd 
+xst -intstyle ise -ifn "/home/ise/ISE_Virtual_Machine_interconnection/slave_spi_fpga/main_slave.xst" -ofn "/home/ise/ISE_Virtual_Machine_interconnection/slave_spi_fpga/main_slave.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx9-csg225-2 main_slave.ngc main_slave.ngd  
+map -intstyle ise -p xc6slx9-csg225-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o main_slave_map.ncd main_slave.ngd main_slave.pcf 
+par -w -intstyle ise -ol high -mt off main_slave_map.ncd main_slave.ncd main_slave.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml main_slave.twx main_slave.ncd -o main_slave.twr main_slave.pcf -ucf pines.ucf 
+bitgen -intstyle ise -f main_slave.ut main_slave.ncd 
+xst -intstyle ise -ifn "/home/ise/ISE_Virtual_Machine_interconnection/slave_spi_fpga/main_slave.xst" -ofn "/home/ise/ISE_Virtual_Machine_interconnection/slave_spi_fpga/main_slave.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx9-csg225-2 main_slave.ngc main_slave.ngd  
+map -intstyle ise -p xc6slx9-csg225-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o main_slave_map.ncd main_slave.ngd main_slave.pcf 
+par -w -intstyle ise -ol high -mt off main_slave_map.ncd main_slave.ncd main_slave.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml main_slave.twx main_slave.ncd -o main_slave.twr main_slave.pcf -ucf pines.ucf 
+bitgen -intstyle ise -f main_slave.ut main_slave.ncd 
+xst -intstyle ise -ifn "/home/ise/ISE_Virtual_Machine_interconnection/slave_spi_fpga/main_slave.xst" -ofn "/home/ise/ISE_Virtual_Machine_interconnection/slave_spi_fpga/main_slave.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx9-csg225-2 main_slave.ngc main_slave.ngd  
+map -intstyle ise -p xc6slx9-csg225-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o main_slave_map.ncd main_slave.ngd main_slave.pcf 
+par -w -intstyle ise -ol high -mt off main_slave_map.ncd main_slave.ncd main_slave.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml main_slave.twx main_slave.ncd -o main_slave.twr main_slave.pcf -ucf pines.ucf 
+bitgen -intstyle ise -f main_slave.ut main_slave.ncd 
+xst -intstyle ise -ifn "/home/ise/ISE_Virtual_Machine_interconnection/slave_spi_fpga/main_slave.xst" -ofn "/home/ise/ISE_Virtual_Machine_interconnection/slave_spi_fpga/main_slave.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx9-csg225-2 main_slave.ngc main_slave.ngd  
+map -intstyle ise -p xc6slx9-csg225-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o main_slave_map.ncd main_slave.ngd main_slave.pcf 
+par -w -intstyle ise -ol high -mt off main_slave_map.ncd main_slave.ncd main_slave.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml main_slave.twx main_slave.ncd -o main_slave.twr main_slave.pcf -ucf pines.ucf 
+bitgen -intstyle ise -f main_slave.ut main_slave.ncd 
+xst -intstyle ise -ifn "/home/ise/ISE_Virtual_Machine_interconnection/slave_spi_fpga/main_slave.xst" -ofn "/home/ise/ISE_Virtual_Machine_interconnection/slave_spi_fpga/main_slave.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx9-csg225-2 main_slave.ngc main_slave.ngd  
+map -intstyle ise -p xc6slx9-csg225-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o main_slave_map.ncd main_slave.ngd main_slave.pcf 
+par -w -intstyle ise -ol high -mt off main_slave_map.ncd main_slave.ncd main_slave.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml main_slave.twx main_slave.ncd -o main_slave.twr main_slave.pcf -ucf pines.ucf 
+bitgen -intstyle ise -f main_slave.ut main_slave.ncd 
+xst -intstyle ise -ifn "/home/ise/ISE_Virtual_Machine_interconnection/slave_spi_fpga/main_slave.xst" -ofn "/home/ise/ISE_Virtual_Machine_interconnection/slave_spi_fpga/main_slave.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx9-csg225-2 main_slave.ngc main_slave.ngd  
+map -intstyle ise -p xc6slx9-csg225-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o main_slave_map.ncd main_slave.ngd main_slave.pcf 
+par -w -intstyle ise -ol high -mt off main_slave_map.ncd main_slave.ncd main_slave.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml main_slave.twx main_slave.ncd -o main_slave.twr main_slave.pcf -ucf pines.ucf 
+bitgen -intstyle ise -f main_slave.ut main_slave.ncd 
+xst -intstyle ise -ifn "/home/ise/ISE_Virtual_Machine_interconnection/slave_spi_fpga/main_slave.xst" -ofn "/home/ise/ISE_Virtual_Machine_interconnection/slave_spi_fpga/main_slave.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx9-csg225-2 main_slave.ngc main_slave.ngd  
+map -intstyle ise -p xc6slx9-csg225-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o main_slave_map.ncd main_slave.ngd main_slave.pcf 
+par -w -intstyle ise -ol high -mt off main_slave_map.ncd main_slave.ncd main_slave.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml main_slave.twx main_slave.ncd -o main_slave.twr main_slave.pcf -ucf pines.ucf 
+bitgen -intstyle ise -f main_slave.ut main_slave.ncd 
+xst -intstyle ise -ifn "/home/ise/ISE_Virtual_Machine_interconnection/slave_spi_fpga/main_slave.xst" -ofn "/home/ise/ISE_Virtual_Machine_interconnection/slave_spi_fpga/main_slave.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx9-csg225-2 main_slave.ngc main_slave.ngd  
+map -intstyle ise -p xc6slx9-csg225-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o main_slave_map.ncd main_slave.ngd main_slave.pcf 
+par -w -intstyle ise -ol high -mt off main_slave_map.ncd main_slave.ncd main_slave.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml main_slave.twx main_slave.ncd -o main_slave.twr main_slave.pcf -ucf pines.ucf 
+bitgen -intstyle ise -f main_slave.ut main_slave.ncd 
+xst -intstyle ise -ifn "/home/ise/ISE_Virtual_Machine_interconnection/slave_spi_fpga/main_slave.xst" -ofn "/home/ise/ISE_Virtual_Machine_interconnection/slave_spi_fpga/main_slave.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx9-csg225-2 main_slave.ngc main_slave.ngd  
+map -intstyle ise -p xc6slx9-csg225-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o main_slave_map.ncd main_slave.ngd main_slave.pcf 
+par -w -intstyle ise -ol high -mt off main_slave_map.ncd main_slave.ncd main_slave.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml main_slave.twx main_slave.ncd -o main_slave.twr main_slave.pcf -ucf pines.ucf 
+bitgen -intstyle ise -f main_slave.ut main_slave.ncd 
+xst -intstyle ise -ifn "/home/ise/ISE_Virtual_Machine_interconnection/slave_spi_fpga/main_slave.xst" -ofn "/home/ise/ISE_Virtual_Machine_interconnection/slave_spi_fpga/main_slave.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx9-csg225-2 main_slave.ngc main_slave.ngd  
+map -intstyle ise -p xc6slx9-csg225-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o main_slave_map.ncd main_slave.ngd main_slave.pcf 
+par -w -intstyle ise -ol high -mt off main_slave_map.ncd main_slave.ncd main_slave.pcf 
+bitgen -intstyle ise -f main_slave.ut main_slave.ncd 
+xst -intstyle ise -ifn "/home/ise/ISE_Virtual_Machine_interconnection/slave_spi_fpga/main_slave.xst" -ofn "/home/ise/ISE_Virtual_Machine_interconnection/slave_spi_fpga/main_slave.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx9-csg225-2 main_slave.ngc main_slave.ngd  
+map -intstyle ise -p xc6slx9-csg225-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o main_slave_map.ncd main_slave.ngd main_slave.pcf 
+par -w -intstyle ise -ol high -mt off main_slave_map.ncd main_slave.ncd main_slave.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml main_slave.twx main_slave.ncd -o main_slave.twr main_slave.pcf -ucf pines.ucf 
+bitgen -intstyle ise -f main_slave.ut main_slave.ncd 
+xst -intstyle ise -ifn "/home/ise/ISE_Virtual_Machine_interconnection/slave_spi_fpga/main_slave.xst" -ofn "/home/ise/ISE_Virtual_Machine_interconnection/slave_spi_fpga/main_slave.syr" 
+xst -intstyle ise -ifn "/home/ise/ISE_Virtual_Machine_interconnection/slave_spi_fpga/main_slave.xst" -ofn "/home/ise/ISE_Virtual_Machine_interconnection/slave_spi_fpga/main_slave.syr" 
+xst -intstyle ise -ifn "/home/ise/ISE_Virtual_Machine_interconnection/slave_spi_fpga/main_slave.xst" -ofn "/home/ise/ISE_Virtual_Machine_interconnection/slave_spi_fpga/main_slave.syr" 
+xst -intstyle ise -ifn "/home/ise/ISE_Virtual_Machine_interconnection/slave_spi_fpga/main_slave.xst" -ofn "/home/ise/ISE_Virtual_Machine_interconnection/slave_spi_fpga/main_slave.syr" 
+xst -intstyle ise -ifn "/home/ise/ISE_Virtual_Machine_interconnection/slave_spi_fpga/main_slave.xst" -ofn "/home/ise/ISE_Virtual_Machine_interconnection/slave_spi_fpga/main_slave.syr" 
+xst -intstyle ise -ifn "/home/ise/ISE_Virtual_Machine_interconnection/slave_spi_fpga/main_slave.xst" -ofn "/home/ise/ISE_Virtual_Machine_interconnection/slave_spi_fpga/main_slave.syr" 
+xst -intstyle ise -ifn "/home/ise/ISE_Virtual_Machine_interconnection/slave_spi_fpga/main_slave.xst" -ofn "/home/ise/ISE_Virtual_Machine_interconnection/slave_spi_fpga/main_slave.syr" 
+xst -intstyle ise -ifn "/home/ise/ISE_Virtual_Machine_interconnection/slave_spi_fpga/main_slave.xst" -ofn "/home/ise/ISE_Virtual_Machine_interconnection/slave_spi_fpga/main_slave.syr" 
+xst -intstyle ise -ifn "/home/ise/ISE_Virtual_Machine_interconnection/slave_spi_fpga/main_slave.xst" -ofn "/home/ise/ISE_Virtual_Machine_interconnection/slave_spi_fpga/main_slave.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx9-csg225-2 main_slave.ngc main_slave.ngd  
+map -intstyle ise -p xc6slx9-csg225-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o main_slave_map.ncd main_slave.ngd main_slave.pcf 
+par -w -intstyle ise -ol high -mt off main_slave_map.ncd main_slave.ncd main_slave.pcf 
+bitgen -intstyle ise -f main_slave.ut main_slave.ncd 
+xst -intstyle ise -ifn "/home/ise/ISE_Virtual_Machine_interconnection/slave_spi_fpga/main_slave.xst" -ofn "/home/ise/ISE_Virtual_Machine_interconnection/slave_spi_fpga/main_slave.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx9-csg225-2 main_slave.ngc main_slave.ngd  
+map -intstyle ise -p xc6slx9-csg225-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o main_slave_map.ncd main_slave.ngd main_slave.pcf 
+par -w -intstyle ise -ol high -mt off main_slave_map.ncd main_slave.ncd main_slave.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml main_slave.twx main_slave.ncd -o main_slave.twr main_slave.pcf -ucf pines.ucf 
+bitgen -intstyle ise -f main_slave.ut main_slave.ncd 
+xst -intstyle ise -ifn "/home/ise/ISE_Virtual_Machine_interconnection/slave_spi_fpga/main_slave.xst" -ofn "/home/ise/ISE_Virtual_Machine_interconnection/slave_spi_fpga/main_slave.syr" 
+xst -intstyle ise -ifn "/home/ise/ISE_Virtual_Machine_interconnection/slave_spi_fpga/main_slave.xst" -ofn "/home/ise/ISE_Virtual_Machine_interconnection/slave_spi_fpga/main_slave.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx9-csg225-2 main_slave.ngc main_slave.ngd  
+map -intstyle ise -p xc6slx9-csg225-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o main_slave_map.ncd main_slave.ngd main_slave.pcf 
+par -w -intstyle ise -ol high -mt off main_slave_map.ncd main_slave.ncd main_slave.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml main_slave.twx main_slave.ncd -o main_slave.twr main_slave.pcf -ucf pines.ucf 
+bitgen -intstyle ise -f main_slave.ut main_slave.ncd 
+xst -intstyle ise -ifn "/home/ise/ISE_Virtual_Machine_interconnection/slave_spi_fpga/main_slave.xst" -ofn "/home/ise/ISE_Virtual_Machine_interconnection/slave_spi_fpga/main_slave.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx9-csg225-2 main_slave.ngc main_slave.ngd  
+map -intstyle ise -p xc6slx9-csg225-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o main_slave_map.ncd main_slave.ngd main_slave.pcf 
+par -w -intstyle ise -ol high -mt off main_slave_map.ncd main_slave.ncd main_slave.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml main_slave.twx main_slave.ncd -o main_slave.twr main_slave.pcf -ucf pines.ucf 
+bitgen -intstyle ise -f main_slave.ut main_slave.ncd 
+xst -intstyle ise -ifn "/home/ise/ISE_Virtual_Machine_interconnection/slave_spi_fpga/main_slave.xst" -ofn "/home/ise/ISE_Virtual_Machine_interconnection/slave_spi_fpga/main_slave.syr" 
+xst -intstyle ise -ifn "/home/ise/ISE_Virtual_Machine_interconnection/slave_spi_fpga/main_slave.xst" -ofn "/home/ise/ISE_Virtual_Machine_interconnection/slave_spi_fpga/main_slave.syr" 
+xst -intstyle ise -ifn "/home/ise/ISE_Virtual_Machine_interconnection/slave_spi_fpga/main_slave.xst" -ofn "/home/ise/ISE_Virtual_Machine_interconnection/slave_spi_fpga/main_slave.syr" 
+xst -intstyle ise -ifn "/home/ise/ISE_Virtual_Machine_interconnection/slave_spi_fpga/main_slave.xst" -ofn "/home/ise/ISE_Virtual_Machine_interconnection/slave_spi_fpga/main_slave.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx9-csg225-2 main_slave.ngc main_slave.ngd  
+map -intstyle ise -p xc6slx9-csg225-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o main_slave_map.ncd main_slave.ngd main_slave.pcf 
+par -w -intstyle ise -ol high -mt off main_slave_map.ncd main_slave.ncd main_slave.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml main_slave.twx main_slave.ncd -o main_slave.twr main_slave.pcf -ucf pines.ucf 
+bitgen -intstyle ise -f main_slave.ut main_slave.ncd 
+xst -intstyle ise -ifn "/home/ise/ISE_Virtual_Machine_interconnection/slave_spi_fpga/main_slave.xst" -ofn "/home/ise/ISE_Virtual_Machine_interconnection/slave_spi_fpga/main_slave.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx9-csg225-2 main_slave.ngc main_slave.ngd  
+map -intstyle ise -p xc6slx9-csg225-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o main_slave_map.ncd main_slave.ngd main_slave.pcf 
+par -w -intstyle ise -ol high -mt off main_slave_map.ncd main_slave.ncd main_slave.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml main_slave.twx main_slave.ncd -o main_slave.twr main_slave.pcf -ucf pines.ucf 
+bitgen -intstyle ise -f main_slave.ut main_slave.ncd 
+xst -intstyle ise -ifn "/home/ise/ISE_Virtual_Machine_interconnection/slave_spi_fpga/main_slave.xst" -ofn "/home/ise/ISE_Virtual_Machine_interconnection/slave_spi_fpga/main_slave.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx9-csg225-2 main_slave.ngc main_slave.ngd  
+map -intstyle ise -p xc6slx9-csg225-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o main_slave_map.ncd main_slave.ngd main_slave.pcf 
+par -w -intstyle ise -ol high -mt off main_slave_map.ncd main_slave.ncd main_slave.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml main_slave.twx main_slave.ncd -o main_slave.twr main_slave.pcf -ucf pines.ucf 
+bitgen -intstyle ise -f main_slave.ut main_slave.ncd 
+xst -intstyle ise -ifn "/home/ise/ISE_Virtual_Machine_interconnection/slave_spi_fpga/main_slave.xst" -ofn "/home/ise/ISE_Virtual_Machine_interconnection/slave_spi_fpga/main_slave.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx9-csg225-2 main_slave.ngc main_slave.ngd  
+map -intstyle ise -p xc6slx9-csg225-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o main_slave_map.ncd main_slave.ngd main_slave.pcf 
+par -w -intstyle ise -ol high -mt off main_slave_map.ncd main_slave.ncd main_slave.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml main_slave.twx main_slave.ncd -o main_slave.twr main_slave.pcf -ucf pines.ucf 
+bitgen -intstyle ise -f main_slave.ut main_slave.ncd 
+xst -intstyle ise -ifn "/home/ise/ISE_Virtual_Machine_interconnection/slave_spi_fpga/main_slave.xst" -ofn "/home/ise/ISE_Virtual_Machine_interconnection/slave_spi_fpga/main_slave.syr" 
+xst -intstyle ise -ifn "/home/ise/ISE_Virtual_Machine_interconnection/slave_spi_fpga/main_slave.xst" -ofn "/home/ise/ISE_Virtual_Machine_interconnection/slave_spi_fpga/main_slave.syr" 
+xst -intstyle ise -ifn "/home/ise/ISE_Virtual_Machine_interconnection/slave_spi_fpga/main_slave.xst" -ofn "/home/ise/ISE_Virtual_Machine_interconnection/slave_spi_fpga/main_slave.syr" 
+xst -intstyle ise -ifn "/home/ise/ISE_Virtual_Machine_interconnection/slave_spi_fpga/main_slave.xst" -ofn "/home/ise/ISE_Virtual_Machine_interconnection/slave_spi_fpga/main_slave.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx9-csg225-2 main_slave.ngc main_slave.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx9-csg225-2 main_slave.ngc main_slave.ngd  
+map -intstyle ise -p xc6slx9-csg225-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o main_slave_map.ncd main_slave.ngd main_slave.pcf 
+par -w -intstyle ise -ol high -mt off main_slave_map.ncd main_slave.ncd main_slave.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml main_slave.twx main_slave.ncd -o main_slave.twr main_slave.pcf -ucf pines.ucf 
+bitgen -intstyle ise -f main_slave.ut main_slave.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx9-csg225-2 main_slave.ngc main_slave.ngd  
+map -intstyle ise -p xc6slx9-csg225-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o main_slave_map.ncd main_slave.ngd main_slave.pcf 
+par -w -intstyle ise -ol high -mt off main_slave_map.ncd main_slave.ncd main_slave.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml main_slave.twx main_slave.ncd -o main_slave.twr main_slave.pcf -ucf pines.ucf 
+bitgen -intstyle ise -f main_slave.ut main_slave.ncd 
+xst -intstyle ise -ifn "/home/ise/ISE_Virtual_Machine_interconnection/slave_spi_fpga/main_slave.xst" -ofn "/home/ise/ISE_Virtual_Machine_interconnection/slave_spi_fpga/main_slave.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx9-csg225-2 main_slave.ngc main_slave.ngd  
+map -intstyle ise -p xc6slx9-csg225-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o main_slave_map.ncd main_slave.ngd main_slave.pcf 
+par -w -intstyle ise -ol high -mt off main_slave_map.ncd main_slave.ncd main_slave.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml main_slave.twx main_slave.ncd -o main_slave.twr main_slave.pcf -ucf pines.ucf 
+bitgen -intstyle ise -f main_slave.ut main_slave.ncd 
+xst -intstyle ise -ifn "/home/ise/ISE_Virtual_Machine_interconnection/slave_spi_fpga/main_slave.xst" -ofn "/home/ise/ISE_Virtual_Machine_interconnection/slave_spi_fpga/main_slave.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx9-csg225-2 main_slave.ngc main_slave.ngd  
+map -intstyle ise -p xc6slx9-csg225-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o main_slave_map.ncd main_slave.ngd main_slave.pcf 
+par -w -intstyle ise -ol high -mt off main_slave_map.ncd main_slave.ncd main_slave.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml main_slave.twx main_slave.ncd -o main_slave.twr main_slave.pcf -ucf pines.ucf 
+bitgen -intstyle ise -f main_slave.ut main_slave.ncd 
+xst -intstyle ise -ifn "/home/ise/ISE_Virtual_Machine_interconnection/slave_spi_fpga/main_slave.xst" -ofn "/home/ise/ISE_Virtual_Machine_interconnection/slave_spi_fpga/main_slave.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx9-csg225-2 main_slave.ngc main_slave.ngd  
+map -intstyle ise -p xc6slx9-csg225-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o main_slave_map.ncd main_slave.ngd main_slave.pcf 
+par -w -intstyle ise -ol high -mt off main_slave_map.ncd main_slave.ncd main_slave.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml main_slave.twx main_slave.ncd -o main_slave.twr main_slave.pcf -ucf pines.ucf 
+bitgen -intstyle ise -f main_slave.ut main_slave.ncd 
+xst -intstyle ise -ifn "/home/ise/ISE_Virtual_Machine_interconnection/slave_spi_fpga/main_slave.xst" -ofn "/home/ise/ISE_Virtual_Machine_interconnection/slave_spi_fpga/main_slave.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx9-csg225-2 main_slave.ngc main_slave.ngd  
+map -intstyle ise -p xc6slx9-csg225-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o main_slave_map.ncd main_slave.ngd main_slave.pcf 
+par -w -intstyle ise -ol high -mt off main_slave_map.ncd main_slave.ncd main_slave.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml main_slave.twx main_slave.ncd -o main_slave.twr main_slave.pcf -ucf pines.ucf 
+bitgen -intstyle ise -f main_slave.ut main_slave.ncd 
+xst -intstyle ise -ifn "/home/ise/ISE_Virtual_Machine_interconnection/slave_spi_fpga/main_slave.xst" -ofn "/home/ise/ISE_Virtual_Machine_interconnection/slave_spi_fpga/main_slave.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx9-csg225-2 main_slave.ngc main_slave.ngd  
+map -intstyle ise -p xc6slx9-csg225-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o main_slave_map.ncd main_slave.ngd main_slave.pcf 
+par -w -intstyle ise -ol high -mt off main_slave_map.ncd main_slave.ncd main_slave.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml main_slave.twx main_slave.ncd -o main_slave.twr main_slave.pcf -ucf pines.ucf 
+bitgen -intstyle ise -f main_slave.ut main_slave.ncd 
+xst -intstyle ise -ifn "/home/ise/ISE_Virtual_Machine_interconnection/slave_spi_fpga/main_slave.xst" -ofn "/home/ise/ISE_Virtual_Machine_interconnection/slave_spi_fpga/main_slave.syr" 
+xst -intstyle ise -ifn "/home/ise/ISE_Virtual_Machine_interconnection/slave_spi_fpga/main_slave.xst" -ofn "/home/ise/ISE_Virtual_Machine_interconnection/slave_spi_fpga/main_slave.syr" 
+xst -intstyle ise -ifn "/home/ise/ISE_Virtual_Machine_interconnection/slave_spi_fpga/main_slave.xst" -ofn "/home/ise/ISE_Virtual_Machine_interconnection/slave_spi_fpga/main_slave.syr" 
+xst -intstyle ise -ifn "/home/ise/ISE_Virtual_Machine_interconnection/slave_spi_fpga/main_slave.xst" -ofn "/home/ise/ISE_Virtual_Machine_interconnection/slave_spi_fpga/main_slave.syr" 
+xst -intstyle ise -ifn "/home/ise/ISE_Virtual_Machine_interconnection/slave_spi_fpga/main_slave.xst" -ofn "/home/ise/ISE_Virtual_Machine_interconnection/slave_spi_fpga/main_slave.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx9-csg225-2 main_slave.ngc main_slave.ngd  
+map -intstyle ise -p xc6slx9-csg225-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o main_slave_map.ncd main_slave.ngd main_slave.pcf 
+par -w -intstyle ise -ol high -mt off main_slave_map.ncd main_slave.ncd main_slave.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml main_slave.twx main_slave.ncd -o main_slave.twr main_slave.pcf -ucf pines.ucf 
+bitgen -intstyle ise -f main_slave.ut main_slave.ncd 
+xst -intstyle ise -ifn "/home/ise/ISE_Virtual_Machine_interconnection/slave_spi_fpga/main_slave.xst" -ofn "/home/ise/ISE_Virtual_Machine_interconnection/slave_spi_fpga/main_slave.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx9-csg225-2 main_slave.ngc main_slave.ngd  
+map -intstyle ise -p xc6slx9-csg225-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o main_slave_map.ncd main_slave.ngd main_slave.pcf 
+par -w -intstyle ise -ol high -mt off main_slave_map.ncd main_slave.ncd main_slave.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml main_slave.twx main_slave.ncd -o main_slave.twr main_slave.pcf -ucf pines.ucf 
+bitgen -intstyle ise -f main_slave.ut main_slave.ncd 
+xst -intstyle ise -ifn "/home/ise/ISE_Virtual_Machine_interconnection/slave_spi_fpga/main_slave.xst" -ofn "/home/ise/ISE_Virtual_Machine_interconnection/slave_spi_fpga/main_slave.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx9-csg225-2 main_slave.ngc main_slave.ngd  
+map -intstyle ise -p xc6slx9-csg225-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o main_slave_map.ncd main_slave.ngd main_slave.pcf 
+par -w -intstyle ise -ol high -mt off main_slave_map.ncd main_slave.ncd main_slave.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml main_slave.twx main_slave.ncd -o main_slave.twr main_slave.pcf -ucf pines.ucf 
+bitgen -intstyle ise -f main_slave.ut main_slave.ncd 
+xst -intstyle ise -ifn "/home/ise/ISE_Virtual_Machine_interconnection/slave_spi_fpga/main_slave.xst" -ofn "/home/ise/ISE_Virtual_Machine_interconnection/slave_spi_fpga/main_slave.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx9-csg225-2 main_slave.ngc main_slave.ngd  
+map -intstyle ise -p xc6slx9-csg225-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o main_slave_map.ncd main_slave.ngd main_slave.pcf 
+par -w -intstyle ise -ol high -mt off main_slave_map.ncd main_slave.ncd main_slave.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml main_slave.twx main_slave.ncd -o main_slave.twr main_slave.pcf -ucf pines.ucf 
+bitgen -intstyle ise -f main_slave.ut main_slave.ncd 

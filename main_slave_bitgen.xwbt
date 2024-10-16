@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/home/ise/ISE_Virtual_Machine_interconnection/slave_spi_fpga/main_slave.ncd
+OUTFILE=/home/ise/ISE_Virtual_Machine_interconnection/slave_spi_fpga/main_slave.bit
+FAMILY=Spartan6
+PART=xc6slx9-2csg225
+WORKINGDIR=/home/ise/ISE_Virtual_Machine_interconnection/slave_spi_fpga
+LICENSE=ISE
+USER_INFO=8416_11442_1478797146_620
