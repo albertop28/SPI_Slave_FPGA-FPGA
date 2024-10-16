@@ -5,14 +5,14 @@ Parameter TMPDIR set to xst/projnav.tmp
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.04 secs
+Total CPU time to Xst completion: 0.02 secs
  
 --> 
 Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.04 secs
+Total CPU time to Xst completion: 0.02 secs
  
 --> 
 Reading design: main_slave.prj
@@ -426,8 +426,8 @@ clock_commFpga |         |         |    3.342|         |
 =========================================================================
 
 
-Total REAL time to Xst completion: 8.00 secs
-Total CPU time to Xst completion: 6.64 secs
+Total REAL time to Xst completion: 7.00 secs
+Total CPU time to Xst completion: 6.39 secs
  
 --> 
 

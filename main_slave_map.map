@@ -10,7 +10,7 @@ Target Device  : xc6slx9
 Target Package : csg225
 Target Speed   : -2
 Mapper Version : spartan6 -- $Revision: 1.55 $
-Mapped Date    : Tue Oct 15 23:41:16 2024
+Mapped Date    : Tue Oct 15 23:51:27 2024
 
 vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
 INFO:Security:54 - 'xc6slx9' is a WebPack part.
@@ -57,21 +57,21 @@ Phase 8.5  Local Placement Optimization (Checksum:a6b103fc) REAL time: 7 secs
 Phase 9.8  Global Placement
 ........
 ........
-Phase 9.8  Global Placement (Checksum:7864bc0a) REAL time: 7 secs 
+Phase 9.8  Global Placement (Checksum:7864bc0a) REAL time: 8 secs 
 
 Phase 10.5  Local Placement Optimization
-Phase 10.5  Local Placement Optimization (Checksum:7864bc0a) REAL time: 7 secs 
+Phase 10.5  Local Placement Optimization (Checksum:7864bc0a) REAL time: 8 secs 
 
 Phase 11.18  Placement Optimization
-Phase 11.18  Placement Optimization (Checksum:8c8973aa) REAL time: 7 secs 
+Phase 11.18  Placement Optimization (Checksum:8c8973aa) REAL time: 8 secs 
 
 Phase 12.5  Local Placement Optimization
-Phase 12.5  Local Placement Optimization (Checksum:8c8973aa) REAL time: 7 secs 
+Phase 12.5  Local Placement Optimization (Checksum:8c8973aa) REAL time: 8 secs 
 
 Phase 13.34  Placement Validation
-Phase 13.34  Placement Validation (Checksum:8c8973aa) REAL time: 7 secs 
+Phase 13.34  Placement Validation (Checksum:8c8973aa) REAL time: 8 secs 
 
-Total REAL time to Placer completion: 7 secs 
+Total REAL time to Placer completion: 8 secs 
 Total CPU  time to Placer completion: 7 secs 
 Running post-placement packing...
 Writing output files...
@@ -150,7 +150,7 @@ Average Fanout of Non-Clock Nets:                2.98
 
 Peak Memory Usage:  752 MB
 Total REAL time to MAP completion:  8 secs 
-Total CPU time to MAP completion:   7 secs 
+Total CPU time to MAP completion:   8 secs 
 
 Mapping completed.
 See MAP report file "main_slave_map.mrp" for details.
